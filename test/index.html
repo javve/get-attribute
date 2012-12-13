@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>getAttribute</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <div id="test" data-value="myValue"></div>
+    <button onclick="alertValue();">Click me</button>
+
+
+    <script src="../build/build.js"></script>
+
+    <script>
+      var getAttribute = require('get-attribute');
+
+      function alertValue(e) {
+        var el = document.getElementById('test');
+        var dataValue = getAttribute(el, 'data-value');
+        alert(dataValue);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "get-attribute",
+  "repo": "javve/get-attribute",
+  "description": "A cross-browser implementation of getAttribute",
+  "version": "0.0.1",
+  "keywords": ["getattribute", "attribute", "html", "cross-browser"],
+  "scripts": [
+    "index.js"
+  ]
+}
