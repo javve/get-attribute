@@ -9,6 +9,11 @@ written by [Vivin Paliath](http://stackoverflow.com/users/263004/vivin-paliath)
 
 Uses default `getAttribute` if it's available.
 
+## Component
+Built to be used with the [Component package manager](https://github.com/component/component). Read more here:
+* [Component at Github](https://github.com/component/component)
+* [TJ Holowaychuk's introduction](http://tjholowaychuk.com/post/27984551477/components)
+
 ## Installation
 
     $ component install javve/get-attribute
